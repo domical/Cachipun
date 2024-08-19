@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+      <title>Juego Cachipun</title>
+</head>
+<body>
+    <h1>Juego de Cachipún</h1>
+    <p>Elige tu jugada:</p>
+    <p>¿Cuántos juegos quieres jugar?</p>
+    <input type="number" id="gameCount" value="1">
+    <button onclick="playGame()">Jugar</button>
+    <div id="result"></div>
+  
+    <button onclick="playGame('piedra')">Piedra</button>
+    <button onclick="playGame('papel')">Papel</button>
+    <button onclick="playGame('tijera')">Tijera</button>
+    <div id="result"></div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
